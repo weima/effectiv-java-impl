@@ -1,4 +1,4 @@
-package ca.weland.effectivejava;
+package ca.weland.effectivejava.item1;
 
 import jdk.jshell.spi.ExecutionControl;
 

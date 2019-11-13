@@ -1,5 +1,6 @@
-package ca.weland.effectivejava;
+package ca.weland.effectivejava.item1;
 
+import ca.weland.effectivejava.item1.Item1;
 import jdk.jshell.spi.ExecutionControl;
 import org.junit.jupiter.api.Test;
 
