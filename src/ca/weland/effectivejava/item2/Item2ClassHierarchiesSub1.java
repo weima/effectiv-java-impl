@@ -3,14 +3,9 @@ package ca.weland.effectivejava.item2;
 public class Item2ClassHierarchiesSub1 extends Item2ClassHierarchies {
 
   public static class Builder extends Item2ClassHierarchies.Builder<Builder> {
-    public String getName() {
-      return name;
-    }
 
-    private final String name;
-
-    public Builder(String name) {
-      this.name = name;
+    public Builder() {
+      addMember(Members.ONE).addMember(Members.FIVE).addMember(Members.THREE);
     }
 
     @Override
